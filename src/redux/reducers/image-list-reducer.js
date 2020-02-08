@@ -9,7 +9,7 @@ export default function imageListReducer(state=INITIAL_STATE,action){
     case ActionTypes.FETCH_IMAGE_LIST:
     return {
       ...state,
-      imageList: action.payload.imageList
+      imageList: action.imageList
     }
     default:
     return state;
